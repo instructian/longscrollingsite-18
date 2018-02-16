@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900i|Open+Sans:600,800|Raleway|Roboto:400,900&subset=greek');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  background: url("frontwave.png") repeat-x left 270px, url("backwave.png") repeat-x left 230px,
+  linear-gradient(to bottom, #edd7a6 100px,#d6c298 300px,#acdfe8 300px,#acdfe8 14%,#6ebdc4 57%,#2d4754 85%) ;
+   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#counter {
+  border: 1px solid red;
+  position: absolute;
+  top:100px;
+  left:0;
+  margin:0;
+  padding:10px;
+  width:200px;
+  height:100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+
+
+#canvas {
+  border: 1px solid blue;
+  position: relative;
+  margin: 0 auto;
+  width:800px;
+  height:10000px;
+  padding:0;
+}
